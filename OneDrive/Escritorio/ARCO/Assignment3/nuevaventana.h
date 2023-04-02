@@ -2,10 +2,10 @@
 #define NUEVAVENTANA_H
 
 
-class nuevaVentana
+class nuevaventana
 {
 public:
-    nuevaVentana();
+    nuevaventana();
 };
 
 #endif // NUEVAVENTANA_H

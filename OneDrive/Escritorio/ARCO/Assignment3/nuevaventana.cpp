@@ -1,6 +1,6 @@
 #include "nuevaventana.h"
 
-nuevaVentana::nuevaVentana()
+nuevaventana::nuevaventana()
 {
 
 }
