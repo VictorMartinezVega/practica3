@@ -9,11 +9,13 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    algoritmo.cpp \
     main.cpp \
     mainwindow.cpp \
     ventana.cpp
 
 HEADERS += \
+    algoritmo.h \
     mainwindow.h \
     ventana.h
 
