@@ -7,20 +7,29 @@
 #include <iostream>
 #include <QDialog>
 #include <QStringList>
+#include <QTextStream>
+#include <time.h>
+
 using namespace std;
 class Algoritmo
 {
 public:
-    Algoritmo(QString Origen, QString Destino);
+    Algoritmo(QString origen, QString destino);
     ~Algoritmo();
 
     void eliminarRep();
+    double media();
+    void clear();
+    int  getLength();
 
 private:
-    QString Origen;
-    QString Destino;
+    QString origen;
+    QString destino;
     vector<QString> lista;
     vector<int> nums;
+    vector<double> tiempo;
+
+
 };
 
 #endif // ALGORITMO_H
