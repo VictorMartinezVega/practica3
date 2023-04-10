@@ -10,16 +10,19 @@ CONFIG += c++17
 
 SOURCES += \
     algoritmo.cpp \
+    imagen.cpp \
     main.cpp \
     mainwindow.cpp \
     ventana.cpp
 
 HEADERS += \
     algoritmo.h \
+    imagen.h \
     mainwindow.h \
     ventana.h
 
 FORMS += \
+    imagen.ui \
     mainwindow.ui \
     ventana.ui
 
